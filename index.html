@@ -20,7 +20,8 @@
 
         .card {
             position: relative;
-            width: 300px;
+            text-align: center;
+            width: 350px;
             height: 400px;
             background-color: rgba(2, 225, 241, 0.745);
             backdrop-filter: blur(10px);
@@ -30,11 +31,12 @@
             justify-content: center;
             overflow: hidden;
             perspective: 1000px;
-            box-shadow: 0 0 0 5px #ffffff80;
+            box-shadow: 0 0 0 5px #0eaac280;
             transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
 
         .card__content {
+
             position: absolute;
             top: 0;
             left: 0;
@@ -84,13 +86,13 @@
 
     <!-- Audio element -->
     <audio autoplay loop>
-        <source src="./audio/bgMusic.mp3" type="audio/mpeg"> <!-- Ensure this path is correct -->
+        <source src="./audio/bgMusic.mp3" type="audio/mpeg">
     </audio>
 
     <div class="card">
         <h1>🎂Happy Birthday to Dear Sister Chris</h1>
         <div class="card__content">
-            <p class="card__title">🎂Happy Birthday</p>
+            <p class="card__title">🎂Happy Birthday🎉</p>
             <p class="card__description">"Happy Birthday to a wonderful teacher and a motherly guide. Your kindness, wisdom, and support have made a lasting impact on my life. Wishing you a beautiful year ahead filled with joy and blessings!"</p>
             <a href="./BirthdayCard.html">Next</a>
         </div>
